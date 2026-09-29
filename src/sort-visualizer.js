@@ -1,5 +1,6 @@
 import React from "react";
 import _ from "lodash";
+import { expect, test } from 'vitest'
 
 export function clear() {
   isDone = false;

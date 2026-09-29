@@ -10,6 +10,8 @@
   index's. Continue looping through until all values are in ascending order
 */
 
+import { expect, test } from 'vitest'
+
 function bubbleSort(nums) {
   let swapped = false;
   do {
@@ -24,7 +26,8 @@ function bubbleSort(nums) {
       }
     }
   } while (swapped);
-  // snapshot(nums);
+
+  return nums;
 }
 
 // unit tests
